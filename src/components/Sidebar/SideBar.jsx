@@ -15,8 +15,8 @@ const routes = [
     icon: <FaHome />,
   },
   {
-    path: "/users",
-    name: "Users",
+    path: "/accounts",
+    name: "Accounts",
     icon: <FaUser />,
   },
   {
@@ -148,7 +148,7 @@ const SideBar = ({ children }) => {
                   exit="hidden"
                   className="logo"
                 >
-                  DoSomeCoding
+                  Navigation
                 </motion.h1>
               )}
             </AnimatePresence>
